@@ -4,5 +4,5 @@
 # Name: Ken, Age: 61
 users_info = [["Bob", 79], ["Tom", 59], ["Ken", 61]]
 
-for name, age in users_info:
-    print(f"Name: {name}, Age: {age}")
+for user_info in users_info:
+    print(f"Name: {user_info[0]}, Age: {user_info[1]}")
